@@ -1,0 +1,2 @@
+component {5072d14a-86df-4236-b519-28f75aed9aa6} components/GeoSchema.js
+contract @mozilla.org/network/protocol;1?name=geo {5072d14a-86df-4236-b519-28f75aed9aa6}

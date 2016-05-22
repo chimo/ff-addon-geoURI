@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:type>2</em:type> <!-- 2 : Extension -->
+        <em:id>GeoUriHandler@chromic.org</em:id>
+        <em:version>0.0.1</em:version>
+        <em:name>OSM geo: schema handler</em:name>
+        <em:description>Open geo: URIs with OpenStreetMap</em:description>
+	    <em:creator>Chimo</em:creator>
+        <em:targetApplication>
+            <Description>
+                <!-- Firefox -->
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>46.0</em:minVersion>
+                <em:maxVersion>46.0</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
